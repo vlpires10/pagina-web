@@ -1,0 +1,52 @@
+.img-round{
+  border-radius: 50%;
+  width: 20%
+}
+header {
+  position: relative;
+  width: 100%
+
+  min-height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: red;
+  background-image: url("../img/planodefundo1.jpg");
+}
+header .conteudo{
+position: relative;
+padding: 100px 15px 100px;
+width: 100%;
+}
+
+html, body {
+width: 100%
+height: 100%
+}
+
+@midia(min-width 768 px){
+  header {
+    min-height: 100%
+    text-align: center;
+  }
+header .conteudo{
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translatey(-50%);
+  -ms-transform: translatey(-50%);
+  transform: translatey(-50%);
+  text-align: center;
+}
+
+header .conteudo .item {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: : auto;
+}
+
+.tex-center{
+  text-align: center;
+}
